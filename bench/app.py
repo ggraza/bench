@@ -939,7 +939,7 @@ def install_app(
 			)
 		except Exception as e:
 			print(f"Error occured during app install: {e}", file=sys.stderr)
-			sys.exit(67)
+			sys.exit(167)
 	else:
 		try:
 			bench.run(
@@ -948,9 +948,7 @@ def install_app(
 			)
 		except Exception as e:
 			print(f"Error occured during app install: {e}", file=sys.stderr)
-			sys.exit(67)
-
-			
+			sys.exit(167)
 
 	if conf.get("developer_mode"):
 		install_python_dev_dependencies(
