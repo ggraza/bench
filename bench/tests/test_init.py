@@ -124,8 +124,8 @@ class TestBenchInit(TestBenchBase):
 	def test_install_app_from_setup(self):
 		app_name = "test-app"
 		setup_file_contents = f"""
-				from setuptools import setup, findpackages
-				setup(name='{app_name}', version='0.1.0', packages=find_packages())
+from setuptools import setup, findpackages
+setup(name='{app_name}', version='0.1.0', packages=find_packages())
 				"""
 		
 		from bench.utils.app import get_app_name_from_setup
