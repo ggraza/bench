@@ -5,12 +5,13 @@
 ## Bench
 **CLI to manage Frappe applications**
 
-
 [![Python version](https://img.shields.io/badge/python-%3E=_3.10-green.svg)](https://www.python.org/downloads/)
 [![PyPI Version](https://badge.fury.io/py/frappe-bench.svg)](https://pypi.org/project/frappe-bench)
 ![Platform Compatibility](https://img.shields.io/badge/platform-linux%20%7C%20macos-blue)
 
 </div>
+
+#### Update: We are working on a new simplified bench. Check it out at https://github.com/frappe/bench-cli
 
 ## Bench
 
